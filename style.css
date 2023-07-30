@@ -1,0 +1,243 @@
+body{
+    background-image: url(/Images/background.jpg);
+    margin: 0%;
+    padding: 0%;
+    /*background-image: url(/Images/MARTE.jpg);*/
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+    
+}
+
+header{
+    width: 100%;
+}
+
+/*Anclas*/
+
+header nav .Anclas{
+    position:inherit;
+    background-color: black;
+    list-style: none;
+    width: 100%;
+    display:flex;
+    justify-content:right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* Altura automática*/
+}
+
+.Anclas a{
+    /*Anclas*/
+    font-family: serif;
+    text-decoration: none;
+    position:relative;
+    padding-right: 60px;
+}
+
+/* Normal link color */
+li a{
+    color: #ffffff; /* Replace #ff0000 with your desired color code */
+}
+
+  /* Link color on hover (when the cursor is over the link) */
+li a:hover {
+    color: #fcc35a; /* Replace #00ff00 with your desired hover color code */
+}
+
+/*Titulo*/
+body .main-title{
+    color: #57191d;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+}
+/*Subtitulo*/ 
+body p.Indice-primer{
+    padding-bottom: 10px;
+    text-align: center;
+    color: #6a3c49;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Gloock', serif;
+
+}
+/*primer imagen*/
+.escultura-png{
+    align-items: center;
+    /* You can also use bottom: 0; or left: 0; for other positions */
+    z-index: 6; /* Ensure the image stays above the container */
+    display: flex;
+    padding-left: 8px;
+    padding-top: 0px;
+}
+
+/*primer container*/
+.container-Introduccion {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-Introduccion h1{
+    color: #fcc35a;
+}
+
+/*introduccion*/
+.content-intro {
+    padding: 50px;
+    color: #ffffff; /* Set the text color to white */
+    font-family: 'Alata', sans-serif;
+
+}
+
+
+/*segundo container*/
+.container {
+    position: relative;
+    overflow: hidden;
+    margin: 90px;
+    /*color del segundo container*/
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*columnas del segundo container*/
+.column {
+    flex-basis: 30%;
+    flex: 1; /* Each column takes up equal space */
+    padding: 3%;/* Optional: Add padding between the images */
+}
+
+
+/*h2 de container*/
+h2 .container{
+    margin-top: 40px;
+}
+
+h2{
+    font-family: 'Alata', sans-serif;
+}
+
+.column h2{
+    color: #fcc35a;
+
+}
+
+.column p {
+    margin-bottom: 0;
+    color: white;
+    font-family: 'Noto Serif Vithkuqi', serif;
+}
+/*cuestionario*/
+
+.title-cuestionario{
+    color: white;
+    font-family: 'Noto Serif Vithkuqi', serif;
+
+}
+
+/*cuestionario*/
+
+.container-cuestionario{
+    padding: 0px;
+    margin: 0px;
+    width: 600px;
+    padding-left: 80px;
+}
+
+/*container cuestionario color*/
+.color-container3{
+    background-color: black;
+    padding: 10px;
+    width: 600px;
+
+}
+
+.container-cuestionario p{
+    color: #e7e7e7;
+    font-family: 'Noto Serif Vithkuqi', serif;
+
+}
+
+.container-cuestionario{
+    position: grid;
+    padding-bottom: 90px;
+    padding-left: 400px;
+}
+
+.input-respuesta {
+    width: 500px;
+}
+
+label{
+    color: white;
+    font-family: serif;
+
+}
+
+footer{
+    width: 100%;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left:0;
+}
+
+footer .footer-top{
+    position:inherit;
+    list-style: none;
+    display:inline;
+    justify-content:right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display:flex;
+
+}
+
+.footer-top{
+    padding: 20px;
+    gap: 40px;
+    display: grid;
+}
+
+.footer-top-container{
+    background-color: black;
+    display: grid;
+}
+
+.footer-top-container a{
+    color: #e7e7e7;
+    text-decoration: none;
+    font-family: serif;
+
+}
+
+.footer-container a:hover{
+    color: #fcc35a;
+}
+
+.footer-bottom-container{
+    display: grid;
+    background-color: black;
+    width: 100%;
+    
+}   
+
+.footer-bottom p{
+    color: #fcc35a;
+    font-family: serif;
+}
+
+/*
+selector{
+    propiedad : valor: 
+}*/
